@@ -4,7 +4,7 @@
 2) The reason I converted this into a Crypto meme is because I am really into Crypto. I have seen a lot of people lose money and I thought
 this image would portray that nicely.
 
-![](My_meme.png)
+![](Mymeme.png)
 ### Code
 
 '''r
