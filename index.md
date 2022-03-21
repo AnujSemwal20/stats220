@@ -7,7 +7,7 @@ this image would portray that nicely.
 ![](Mymeme.png)
 ### Code
 
-'''r
+```r
 
 library(magick)
 
@@ -46,4 +46,4 @@ mymeme <- c(first_row, second_row) %>%
   image_append(stack = TRUE)
 
 image_write(mymeme, "mymeme.png")
-'''
+```
