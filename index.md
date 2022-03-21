@@ -7,6 +7,8 @@ this image would portray that nicely.
 ![](My_meme.png)
 ### Code
 
+'''r
+
 library(magick)
 
 newbies <- image_read("https://images.unsplash.com/photo-1513245543132-31f507417b26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80") %>%
@@ -44,3 +46,4 @@ mymeme <- c(first_row, second_row) %>%
   image_append(stack = TRUE)
 
 image_write(mymeme, "mymeme.png")
+'''
